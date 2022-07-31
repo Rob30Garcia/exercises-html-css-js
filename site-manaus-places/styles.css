@@ -21,6 +21,10 @@ body {
   color: #5a42f5;
 }
 
+table {
+  border-spacing: 0;
+}
+
 .place {
   background-color: #FFFFFF;
   padding: 10px 20px;
@@ -43,4 +47,21 @@ body {
 .place p {
   font-size: 18px;
   text-align: justify;
+}
+
+.sidenote {
+  width: 286px;
+  background-color: #FFFBE4;
+  border: 1px solid #C9BC8F;
+  padding: 12px;
+  margin-left: 12px;
+
+}
+
+.sidenote ol{
+  padding: 0 24px;
+}
+
+.sidenote ol li {
+  font-size: 14px;
 }
