@@ -102,3 +102,9 @@ header nav{
   width: 25%;
   height: 120px;
 }
+
+footer {
+  display: flex;
+  padding: 24px;
+  margin: 0 auto;
+}
