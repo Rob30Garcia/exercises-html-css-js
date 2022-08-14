@@ -43,3 +43,25 @@ header nav{
   padding: .8rem;
   border-radius: 10px;
 }
+
+.container {
+  display: flex;
+  flex: 1;
+  width: 1160px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 16px;
+  gap: 1rem;
+}
+
+.container aside {
+  flex-basis: 25%;
+  height: 95vh;
+  border: 1px solid #333333;
+}
+
+.container main {
+  flex: 1;
+  height: 95vh;
+  border: 1px solid #333333;
+}
