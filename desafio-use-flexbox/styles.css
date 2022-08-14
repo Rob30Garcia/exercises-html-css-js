@@ -65,3 +65,18 @@ header nav{
   height: 95vh;
   border: 1px solid #333333;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: .8rem;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 25%;
+  height: 120px;
+}
