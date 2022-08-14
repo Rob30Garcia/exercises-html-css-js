@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+header a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header nav{
+  padding: 12px 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: .8rem;
+}
+
+.menu li:last-child {
+  background: blue;
+  color: white;
+  padding: .8rem;
+  border-radius: 10px;
+}
